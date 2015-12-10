@@ -1,0 +1,262 @@
+/* Global settings */
+
+html, body {
+padding: 0;
+margin: 0;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url(fonts/MyriadPro-Cond.otf);
+}
+
+.wrapper {
+width: 1852px;
+height: 1150px;
+margin: 0 auto;
+background-color: RGB(237, 237, 237);
+position: relative;
+}
+
+/* Header area is located below */
+
+.header {
+	width: 1852px;
+	height: 140px;
+	background-color: #474747;
+	box-shadow: 1px 2px 0px 0px #ffffff;
+	position: relative;
+	top: 108px;
+}
+.text_header {
+	width: 487px;
+	height: 78px;
+	font-family: 'Myriad Pro';
+	color: #c7c7c7;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 437px;
+	bottom: 0px;
+	margin: auto;
+}
+.header_logo {
+	background-color: #2f549b;
+	box-shadow: 1px 2px 9px 0px rgba(19, 19, 19, 0.55);
+	width: 450px;
+	height: 159px;
+	position: absolute;
+	top: 98px;
+	left: 976px;
+}
+.dc_logo {
+	width: 62px;
+	height: 71px;
+	position: absolute;
+	top: 42px;
+	left: 55px;
+	float: left;
+}
+.dc_logo_text1 {
+	width: 144px;
+	height: 67px;
+	font-family: 'Myriad Pro';
+	color: #ffffff;
+	font-size: 85px;
+	line-height: 40px;
+	text-align: left;
+	position: absolute;
+	top: 46px;
+	left: 148px;
+	float: left;
+	display: inline;
+}
+.dc_logo_text2 {
+	font-family: 'Myriad Pro';
+	color: #c7c7c7;
+	font-size: 34px;
+	line-height: 32px;
+	text-align: left;
+	position: absolute;
+	top: 146px;
+	left: 325px;
+	float: left;
+	display: inline;
+}
+
+/* Content area is located below */
+
+.content {
+	background-color: #ffffff;
+	box-shadow: 0px 1px 1px 0px rgba(19, 19, 19, 0.25);
+	position: absolute;
+}
+.content_1 {
+	width: 230px;
+	height: 396px;
+	top: 323px;
+	left: 436px;
+	float: left;
+}
+.content_2 {
+	width: 230px;
+	height: 396px;
+	top: 323px;
+	left: 686px;
+	float: left;
+}
+.content_3 {
+	width: 230px;
+	height: 396px;
+	top: 323px;
+	left: 936px;
+	float: left;
+}
+.content_4 {
+	width: 230px;
+	height: 396px;
+	top: 323px;
+	left: 1186px;
+	float: left;
+}
+.content_1:hover, .content_2:hover, .content_3:hover, .content_4:hover {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #35476a;
+	box-sizing: border-box;
+	background-color: #2f549b;
+}
+.directory {
+	width: 86px;
+	height: 68px;
+	position: absolute;
+	top: 25px;
+	left: 72px;
+	z-index: 2;
+}
+.real_estate {
+	width: 97px;
+	height: 88px;
+	position: absolute;
+	top: 21px;
+	left: 67px;
+	z-index: 2;
+}
+.employment {
+	width: 118px;
+	height: 84px;
+	position: absolute;
+	top: 32px;
+	left: 60px;
+	z-index: 2;
+}
+.deals {
+	width: 105px;
+	height: 70px;
+	position: absolute;
+	top: 34px;
+	left: 64px;
+	z-index: 2;
+}
+
+/* Footer is located below */
+
+.bb_top{
+	background-color: #2f549b;
+	width: 259px;
+	height: 60px;
+	position: absolute;
+	top: 765px;
+	left: 796px;
+	float: left;
+	z-index: 3;
+}
+.footer {
+	width: 1000px;
+	height: 178px;
+	position: relative;
+	top: 661px;
+	left: 426px;
+	display: inline-block;
+}
+.bb_1 {
+	width: 370px;
+	height: 178px;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+.bb_2{
+	width: 630px;
+	height: 178px;
+	position: relative;
+	float: left;
+	z-index: 2;
+}
+.cc {
+	width: 50px;
+	height: 49px;
+	position: absolute;
+	z-index: 2;
+	top: 44px;
+	left: 75px;
+	float: left;
+}
+.so {
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	z-index: 2;
+	top: 46px;
+	left: 237px;
+	float: left;
+}
+.cnd {
+	width: 52px;
+	height: 41px;
+	position: absolute;
+	z-index: 3;
+	top: 50px;
+	left: 392px;
+	float: left;
+}
+.contact {	
+	width: 49px;
+	height: 37px;
+	position: absolute;
+	z-index: 3;
+	top: 55px;
+	left: 553px;
+	float: left;
+}
+.buy {	
+	width: 48px;
+	height: 41px;
+	position: absolute;
+	z-index: 3;
+	top: 54px;
+	left: 713px;
+	float: left;
+}
+.osb {	
+	width: 42px;
+	height: 40px;
+	position: absolute;
+	z-index: 3;
+	top: 52px;
+	left: 881px;
+	float: left;
+}
+.osb2 {	
+	width: 15px;
+	height: 13px;
+	position: absolute;
+	z-index: 4;
+	top: 60px;
+	left: 892px;
+	float: left;
+}
