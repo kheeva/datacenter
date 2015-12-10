@@ -62,8 +62,10 @@ position: relative;
 	float: left;
 }
 .dc_logo_text1 {
-	width: 144px;
-	height: 67px;
+	width: 200px;
+	height: 100px;
+	/*width: 144px;
+	height: 67px; */
 	font-family: 'Myriad Pro';
 	color: #ffffff;
 	font-size: 85px;
@@ -73,7 +75,6 @@ position: relative;
 	top: 46px;
 	left: 148px;
 	float: left;
-	display: inline;
 }
 .dc_logo_text2 {
 	font-family: 'Myriad Pro';
@@ -85,7 +86,6 @@ position: relative;
 	top: 146px;
 	left: 325px;
 	float: left;
-	display: inline;
 }
 
 /* Content area is located below */
