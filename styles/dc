@@ -1,0 +1,30 @@
+<NotepadPlus>
+    <Project name="datacenter">
+        <Folder name="img">
+            <File name="D:\Programs\SmartGit\datacenter\img\buy.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\buy_1.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\cc.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\cnd.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\contact.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\datacenter_logo.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\deals.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\directory.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\employment.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\osb.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\osb2.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\real_estate.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\so.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\tre_1.png" />
+            <File name="D:\Programs\SmartGit\datacenter\img\tre_2.png" />
+        </Folder>
+        <Folder name="styles">
+            <Folder name="fonts">
+                <File name="fonts\Myriad-Pro-Regular.ttf" />
+                <File name="fonts\MyriadPro-Cond.otf" />
+                <File name="fonts\MYRIADPRO-COND.woff" />
+            </Folder>
+            <File name="style.css" />
+        </Folder>
+        <File name="D:\Programs\SmartGit\datacenter\index.html" />
+    </Project>
+</NotepadPlus>
