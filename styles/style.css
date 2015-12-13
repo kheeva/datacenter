@@ -4,13 +4,12 @@ html, body {
 padding: 0;
 margin: 0;
 }
-/*
 @font-face {
-	font-family: 'Myriad Pro';
-	src: url(fonts/MyriadPro-Cond.otf);
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
 }
-*/
-
 @font-face {
 font-family: 'Myriad Pro Condensed';
 font-style: normal;
@@ -74,7 +73,7 @@ position: relative;
 	line-height: 67px;
 	text-align: left;
 	position: absolute;
-	top: 46px;
+	top: 40px;
 	left: 148px;
 	float: left;
 }
@@ -85,44 +84,36 @@ position: relative;
 	line-height: 32px;
 	text-align: left;
 	position: absolute;
-	top: 46px;
+	top: 43px;
 	left: 325px;
 }
 
 /* Content area is located below */
 
-.content {
+.content_1, .content_2, .content_3, .content_4 {
+	width: 228px;
+	height: 394px;
+	float: left;
+	border: 1px solid transparent;
 	background-color: #ffffff;
 	box-shadow: 0px 1px 1px 0px rgba(19, 19, 19, 0.25);
 	position: absolute;
 }
 .content_1 {
-	width: 230px;
-	height: 396px;
 	top: 323px;
 	left: 436px;
-	float: left;
 }
 .content_2 {
-	width: 230px;
-	height: 396px;
 	top: 323px;
 	left: 686px;
-	float: left;
 }
 .content_3 {
-	width: 230px;
-	height: 396px;
 	top: 323px;
 	left: 936px;
-	float: left;
 }
 .content_4 {
-	width: 230px;
-	height: 396px;
 	top: 323px;
 	left: 1186px;
-	float: left;
 }
 .content_1:hover, .content_2:hover, .content_3:hover, .content_4:hover {
 	border-style: solid;
@@ -131,39 +122,100 @@ position: relative;
 	box-sizing: border-box;
 	background-color: #2f549b;
 }
+.content_1:hover .content_text, .content_2:hover .content_text, .content_3:hover .content_text, .content_4:hover .content_text {
+	color: #ffffff;
+	/* letter-spacing: -0.72px; */
+}
+.content_1:hover .content_text2, .content_2:hover .content_text2, .content_3:hover .content_text2, .content_4:hover .content_text2 {
+	color: #ffffff;
+}
+.content_1:hover .content_text3, .content_2:hover .content_text3, .content_3:hover .content_text3, .content_4:hover .content_text3 {
+	color: #7c9cdb;
+}
+.content_1:hover .content_hr, .content_2:hover .content_hr, .content_3:hover .content_hr, .content_4:hover .content_hr {
+	background-color: rgba(226, 226, 226, 0.3);
+}
+.directory, .real_estate, .employment, .deals, .content_text, .content_text2, .content_text3, .content_link, .content_hr {
+	position: absolute;
+	z-index: 2;
+}
 .directory {
 	width: 86px;
 	height: 68px;
-	position: absolute;
-	top: 25px;
-	left: 72px;
-	z-index: 2;
+	top: 24px;
+	left: 71px;
 }
 .real_estate {
 	width: 97px;
 	height: 88px;
-	position: absolute;
-	top: 21px;
-	left: 67px;
-	z-index: 2;
+	top: 20px;
+	left: 66px;
 }
 .employment {
 	width: 118px;
 	height: 84px;
-	position: absolute;
-	top: 32px;
-	left: 60px;
-	z-index: 2;
+	top: 31px;
+	left: 59px;
 }
 .deals {
 	width: 105px;
 	height: 70px;
-	position: absolute;
-	top: 34px;
-	left: 64px;
-	z-index: 2;
+	top: 33px;
+	left: 63px;
 }
-
+.content_text, .content_text2 {
+	width: 100%;
+	font-family: 'Myriad Pro Regular';
+	color: #2f549b;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: center;
+	transform: scaleY(1.0001);
+}
+.content_text {
+	top: 125px;
+}
+.content_text2 {
+	top: 172px;
+	font-size: 14px;
+	line-height: 17.999px;
+}
+.content_text3 {
+	font-family: 'Myriad Pro Regular';
+	color: #5e5e5e;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	transform: scaleY(1.0001);
+	top: 242px;
+	margin: auto;
+	left: 0; right: 0;
+}
+.content_link {
+	text-align: center;
+	top: 351px;
+	margin: auto;
+	left: 0; right: 0;
+}
+.content_link a {
+	font-family: 'Myriad Pro Regular';
+	color: #c7c7c7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-decoration: underline;
+}
+.content_hr {
+  background-color: rgba(226, 226, 226, 0.9);
+  width: 90px;
+  height: 1px;
+  top: 226px;
+  margin: auto;
+  left: 0; right: 0;
+  border: none;
+}
 /* Footer is located below */
 
 .bb_top{
